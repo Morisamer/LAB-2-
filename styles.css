@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+  }
+  #calculator {
+    margin-bottom: 5%;
+  }
+  
+  #Inputs {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+  }
+  #Type {
+    margin: 1.5%; 
+    width:25%;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #operations {
+    margin: 2.5%;
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+  }
+  #error {
+    color: red;
+    margin: 2.5%;
+  }
+  
+  #error, #result {
+    margin-top: 5%;
+  }
+  #result {
+    background-color: aquamarine;
+    width: 50%;
+    margin: auto;
+  }
+  #background {
+    border: thin solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input[type="number"] {
+    width: 55%; 
+    height: 25px;
+    padding: 5px; 
+    font-size: 25px; 
+    color: #333; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    text-align: center;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+    border-color: green; /* Цвет границы при наведении и фокусе */
+}
+#button {
+  margin: 2.5%;
+}
+button {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+}
+#fraction {
+  display: flex;
+}
+#fraction1, #fraction2 {
+  margin: 0.5%;
+}
+#numerator, #denominator {
+  margin: 0.5%;
+
+}
+.container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+#res {
+  font-weight: bold;
+}
